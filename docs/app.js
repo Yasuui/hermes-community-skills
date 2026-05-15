@@ -312,17 +312,18 @@ function setupSearch() {
 // Setup category filtering
 function setupCategoryFilters() {
   document.addEventListener('click', (e) => {
-    if (e.target.classList.contains('category-pill')) {
-      const category = e.target.getAttribute('data-category');
+    const pill = e.target.closest('.category-pill');
+    if (pill) {
+      const category = pill.getAttribute('data-category');
 
       // Update current category
       currentCategory = category;
 
       // Update active state
-      document.querySelectorAll('.category-pill').forEach(pill => {
-        pill.classList.remove('active');
+      document.querySelectorAll('.category-pill').forEach(p => {
+        p.classList.remove('active');
       });
-      e.target.classList.add('active');
+      pill.classList.add('active');
 
       // Filter skills
       filterSkills();
