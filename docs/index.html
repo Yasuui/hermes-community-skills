@@ -5,9 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hermes Community Skills</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="app"></div>
+  <nav>
+    <div class="container">
+      <a href="#" style="font-size:1.25rem;font-weight:700;color:var(--accent);text-decoration:none;">Hermes Skills</a>
+      <ul>
+        <li><a href="#skills">Browse</a></li>
+        <li><a href="#install">Install</a></li>
+        <li><a href="https://github.com/Yasuui/hermes-community-skills" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Hermes Community Skills</h1>
+      <p>Discover and install skills to extend Hermes Agent. One command to supercharge your AI assistant.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="container">
+    <div class="filters">
+      <input type="text" id="search-input" placeholder="Search skills...">
+      <select id="category-select"></select>
+    </div>
+    <div id="skills-grid" class="skills-grid"></div>
+  </section>
+
+  <section id="install" class="steps-section container">
+    <h2 style="text-align:center;color:var(--accent);margin-bottom:1.5rem;">How to Install</h2>
+    <div class="steps-container">
+      <div class="step-card">
+        <h3>1. Browse</h3>
+        <ol>
+          <li>Find a skill above</li>
+          <li>Click "Install" to copy the command</li>
+        </ol>
+      </div>
+      <div class="step-card">
+        <h3>2. Install</h3>
+        <ol>
+          <li>Open your terminal</li>
+          <li>Paste the install command</li>
+          <li>Restart Hermes Agent</li>
+        </ol>
+      </div>
+      <div class="step-card">
+        <h3>3. Use</h3>
+        <ol>
+          <li>Ask Hermes to use the skill</li>
+          <li>Skills activate automatically</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Hermes Community Skills &mdash; Open source AI skills marketplace</p>
+      <p style="margin-top:0.5rem;"><a href="https://github.com/Yasuui/hermes-community-skills" style="color:var(--green);text-decoration:none;">GitHub</a></p>
+    </div>
+  </footer>
+
   <script src="app.js"></script>
 </body>
 </html>
