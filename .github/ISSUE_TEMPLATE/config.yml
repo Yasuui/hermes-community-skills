@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/orgs/hermes-community/discussions
+    about: Ask questions and share ideas
+  - name: Report a bug
+    url: https://github.com/orgs/hermes-community/issues/new?template=bug_report.yml
+    about: Report a bug or issue
+  - name: Request a feature
+    url: https://github.com/orgs/hermes-community/issues/new?template=feature_request.yml
+    about: Request a new feature
