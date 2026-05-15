@@ -3,507 +3,1043 @@
     {
       "name": "apple-notes",
       "category": "apple",
-      "description": "Skill in apple category"
+      "description": "Manage Apple Notes via memo CLI: create, search, edit.",
+      "tags": [
+        "macos",
+        "productivity",
+        "notes"
+      ]
     },
     {
       "name": "apple-reminders",
       "category": "apple",
-      "description": "Skill in apple category"
+      "description": "Apple Reminders via remindctl: add, list, complete.",
+      "tags": [
+        "macos",
+        "productivity",
+        "tasks"
+      ]
     },
     {
       "name": "findmy",
       "category": "apple",
-      "description": "Skill in apple category"
+      "description": "Track Apple devices/AirTags via FindMy.app on macOS.",
+      "tags": [
+        "macos",
+        "tracking",
+        "devices"
+      ]
     },
     {
       "name": "imessage",
       "category": "apple",
-      "description": "Skill in apple category"
+      "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+      "tags": [
+        "macos",
+        "messaging",
+        "sms"
+      ]
     },
     {
       "name": "macos-computer-use",
       "category": "apple",
-      "description": "Skill in apple category"
+      "description": "Drive the macOS desktop in the background \u2014 screenshots, mouse, keyboard, scroll, drag \u2014 without stealing the user's cursor or focus.",
+      "tags": [
+        "macos",
+        "automation",
+        "gui"
+      ]
     },
     {
       "name": "claude-code",
       "category": "autonomous-ai-agents",
-      "description": "Skill in autonomous-ai-agents category"
+      "description": "Delegate coding to Claude Code CLI \u2014 autonomous features, PRs, and refactoring.",
+      "tags": [
+        "coding",
+        "claude",
+        "automation"
+      ]
     },
     {
       "name": "codex",
       "category": "autonomous-ai-agents",
-      "description": "Skill in autonomous-ai-agents category"
+      "description": "Delegate coding to OpenAI Codex CLI for features and PRs.",
+      "tags": [
+        "coding",
+        "openai",
+        "automation"
+      ]
     },
     {
       "name": "delegation-toolchain",
       "category": "autonomous-ai-agents",
-      "description": "Skill in autonomous-ai-agents category"
+      "description": "Decision tree and invocation reference for routing tasks to the right coding agent.",
+      "tags": [
+        "orchestration",
+        "routing",
+        "workflow"
+      ]
     },
     {
       "name": "hermes-agent",
       "category": "autonomous-ai-agents",
-      "description": "Skill in autonomous-ai-agents category"
+      "description": "Configure, extend, or contribute to Hermes Agent itself.",
+      "tags": [
+        "config",
+        "setup",
+        "hermes"
+      ]
     },
     {
       "name": "opencode",
       "category": "autonomous-ai-agents",
-      "description": "Skill in autonomous-ai-agents category"
+      "description": "Delegate coding to OpenCode CLI for features and PR review.",
+      "tags": [
+        "coding",
+        "opencode",
+        "automation"
+      ]
     },
     {
       "name": "architecture-diagram",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+      "tags": [
+        "diagrams",
+        "svg",
+        "infrastructure"
+      ]
     },
     {
       "name": "ascii-art",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii conversion.",
+      "tags": [
+        "ascii",
+        "terminal",
+        "art"
+      ]
     },
     {
       "name": "ascii-video",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Convert video/audio to colored ASCII MP4/GIF animations.",
+      "tags": [
+        "video",
+        "ascii",
+        "animation"
+      ]
     },
     {
       "name": "baoyu-comic",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Knowledge comics (\u77e5\u8bc6\u6f2b\u753b): educational, biography, tutorial.",
+      "tags": [
+        "comics",
+        "education",
+        "visual"
+      ]
     },
     {
       "name": "baoyu-infographic",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Infographics: 21 layouts x 21 styles for data visualization.",
+      "tags": [
+        "infographic",
+        "data-viz",
+        "design"
+      ]
     },
     {
       "name": "claude-design",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Design one-off HTML artifacts \u2014 landing pages, decks, prototypes.",
+      "tags": [
+        "html",
+        "design",
+        "prototyping"
+      ]
     },
     {
       "name": "comfyui",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Generate images, video, and audio with ComfyUI \u2014 install, launch, manage nodes and models.",
+      "tags": [
+        "ai-art",
+        "image-gen",
+        "comfyui"
+      ]
     },
     {
       "name": "design-md",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Author/validate/export Google's DESIGN.md token spec files.",
+      "tags": [
+        "design-tokens",
+        "spec",
+        "google"
+      ]
     },
     {
       "name": "excalidraw",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Hand-drawn Excalidraw JSON diagrams for architecture and flows.",
+      "tags": [
+        "diagrams",
+        "whiteboard",
+        "hand-drawn"
+      ]
     },
     {
       "name": "humanizer",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Humanize text: strip AI-isms and add real voice.",
+      "tags": [
+        "writing",
+        "editing",
+        "tone"
+      ]
     },
     {
       "name": "ideation",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Generate project ideas via creative constraints.",
+      "tags": [
+        "brainstorm",
+        "ideas",
+        "creativity"
+      ]
     },
     {
       "name": "manim-video",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Manim CE animations: 3Blue1Brown-style math/algo videos.",
+      "tags": [
+        "animation",
+        "math",
+        "video"
+      ]
     },
     {
       "name": "p5js",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "p5.js sketches: generative art, shaders, interactive, 3D.",
+      "tags": [
+        "generative-art",
+        "canvas",
+        "creative-coding"
+      ]
     },
     {
       "name": "pixel-art",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Pixel art with era palettes \u2014 NES, Game Boy, PICO-8.",
+      "tags": [
+        "pixel-art",
+        "retro",
+        "game-dev"
+      ]
     },
     {
       "name": "popular-web-designs",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS templates.",
+      "tags": [
+        "design-systems",
+        "css",
+        "ui"
+      ]
     },
     {
       "name": "pretext",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "DOM-free text layout for ASCII art, kinetic typography, and generative text art.",
+      "tags": [
+        "typography",
+        "ascii",
+        "creative-coding"
+      ]
     },
     {
       "name": "sketch",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Throwaway HTML mockups: 2-3 design variants to compare.",
+      "tags": [
+        "mockup",
+        "prototyping",
+        "design"
+      ]
     },
     {
-      "name": "songwriting-and-ai-mus\u2026",
+      "name": "songwriting-and-ai-music",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Songwriting craft and Suno AI music prompts.",
+      "tags": [
+        "music",
+        "suno",
+        "songwriting"
+      ]
     },
     {
       "name": "touchdesigner-mcp",
       "category": "creative",
-      "description": "Skill in creative category"
+      "description": "Control a running TouchDesigner instance via MCP \u2014 real-time visuals.",
+      "tags": [
+        "touchdesigner",
+        "visuals",
+        "mcp"
+      ]
     },
     {
       "name": "jupyter-live-kernel",
       "category": "data-science",
-      "description": "Skill in data-science category"
+      "description": "Iterative Python via live Jupyter kernel for data exploration.",
+      "tags": [
+        "jupyter",
+        "python",
+        "data"
+      ]
     },
     {
       "name": "gateway-connectivity",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Diagnose and resolve platform gateway connectivity issues.",
+      "tags": [
+        "debugging",
+        "gateway",
+        "networking"
+      ]
     },
     {
-      "name": "gateway-process-manage\u2026",
+      "name": "gateway-process-management",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Detect and prevent runaway Hermes gateway worker processes.",
+      "tags": [
+        "process",
+        "monitoring",
+        "gateway"
+      ]
     },
     {
       "name": "hermes-admin-inspection",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Inspect, verify, and troubleshoot Hermes Agent installation state.",
+      "tags": [
+        "admin",
+        "troubleshooting",
+        "inspection"
+      ]
     },
     {
       "name": "hq-resilience",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Automated health-check and self-healing for Hermes HQ.",
+      "tags": [
+        "health",
+        "self-healing",
+        "monitoring"
+      ]
     },
     {
       "name": "kanban-orchestrator",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Decomposition playbook for orchestrators routing work through Kanban.",
+      "tags": [
+        "kanban",
+        "orchestration",
+        "workflow"
+      ]
     },
     {
       "name": "kanban-worker",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Pitfalls, examples, and edge cases for Hermes Kanban workers.",
+      "tags": [
+        "kanban",
+        "worker",
+        "patterns"
+      ]
     },
     {
       "name": "memory-providers",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Manage pluggable memory providers \u2014 holographic, Hindsight, Mem0.",
+      "tags": [
+        "memory",
+        "providers",
+        "config"
+      ]
     },
     {
       "name": "memory-wiki-health",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Maintain memory hygiene and wiki-llm integrity.",
+      "tags": [
+        "memory",
+        "wiki",
+        "health"
+      ]
     },
     {
-      "name": "orchestrator-efficienc\u2026",
+      "name": "orchestrator-efficiency-rules",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Efficiency patterns for orchestrators under token constraints.",
+      "tags": [
+        "efficiency",
+        "tokens",
+        "orchestration"
+      ]
     },
     {
-      "name": "playwright-screen-reco\u2026",
+      "name": "playwright-screen-recorder",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Record browser UX flow and cinematic demos without vision model.",
+      "tags": [
+        "playwright",
+        "recording",
+        "demo"
+      ]
     },
     {
       "name": "webhook-subscriptions",
       "category": "devops",
-      "description": "Skill in devops category"
+      "description": "Webhook subscriptions: event-driven agent runs.",
+      "tags": [
+        "webhooks",
+        "events",
+        "automation"
+      ]
     },
     {
       "name": "himalaya",
       "category": "email",
-      "description": "Skill in email category"
+      "description": "Himalaya CLI: IMAP/SMTP email from the terminal.",
+      "tags": [
+        "email",
+        "imap",
+        "terminal"
+      ]
     },
     {
-      "name": "minecraft-modpack-serv\u2026",
+      "name": "minecraft-modpack-server",
       "category": "gaming",
-      "description": "Skill in gaming category"
+      "description": "Host modded Minecraft servers with CurseForge/Modrinth modpacks.",
+      "tags": [
+        "minecraft",
+        "server",
+        "gaming"
+      ]
     },
     {
       "name": "pokemon-player",
       "category": "gaming",
-      "description": "Skill in gaming category"
+      "description": "Play Pokemon via headless emulator with RAM reads.",
+      "tags": [
+        "pokemon",
+        "emulator",
+        "gaming"
+      ]
     },
     {
       "name": "codebase-inspection",
       "category": "github",
-      "description": "Skill in github category"
+      "description": "Inspect codebases with pygount: LOC, languages, ratios.",
+      "tags": [
+        "codebase",
+        "metrics",
+        "analysis"
+      ]
     },
     {
       "name": "github-auth",
       "category": "github",
-      "description": "Skill in github category"
+      "description": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
+      "tags": [
+        "github",
+        "auth",
+        "setup"
+      ]
     },
     {
       "name": "github-code-review",
       "category": "github",
-      "description": "Skill in github category"
+      "description": "Review PRs: diffs, inline comments via gh or REST.",
+      "tags": [
+        "github",
+        "code-review",
+        "prs"
+      ]
     },
     {
       "name": "github-issues",
       "category": "github",
-      "description": "Skill in github category"
+      "description": "Create, triage, label, assign GitHub issues via gh or REST.",
+      "tags": [
+        "github",
+        "issues",
+        "triage"
+      ]
     },
     {
       "name": "github-pr-workflow",
       "category": "github",
-      "description": "Skill in github category"
+      "description": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
+      "tags": [
+        "github",
+        "prs",
+        "workflow"
+      ]
     },
     {
       "name": "github-repo-management",
       "category": "github",
-      "description": "Skill in github category"
+      "description": "Clone/create/fork repos; manage remotes, releases.",
+      "tags": [
+        "github",
+        "repos",
+        "git"
+      ]
     },
     {
-      "name": "github-workflow-automa\u2026",
+      "name": "github-workflow-automation",
       "category": "github",
-      "description": "Skill in github category"
+      "description": "Automate GitHub operations: auth, branching, commits, push/pull, releases.",
+      "tags": [
+        "github",
+        "automation",
+        "ci-cd"
+      ]
     },
     {
       "name": "native-mcp",
       "category": "mcp",
-      "description": "Skill in mcp category"
+      "description": "MCP client: connect servers, register tools via stdio/HTTP.",
+      "tags": [
+        "mcp",
+        "tools",
+        "integration"
+      ]
     },
     {
       "name": "gif-search",
       "category": "media",
-      "description": "Skill in media category"
+      "description": "Search and download GIFs from Tenor via curl + jq.",
+      "tags": [
+        "gif",
+        "search",
+        "media"
+      ]
     },
     {
       "name": "heartmula",
       "category": "media",
-      "description": "Skill in media category"
+      "description": "HeartMuLa: Suno-like song generation from lyrics + tags.",
+      "tags": [
+        "music",
+        "generation",
+        "suno"
+      ]
     },
     {
       "name": "songsee",
       "category": "media",
-      "description": "Skill in media category"
+      "description": "Audio spectrograms and features \u2014 mel, chroma, MFCC analysis.",
+      "tags": [
+        "audio",
+        "spectrogram",
+        "analysis"
+      ]
     },
     {
       "name": "spotify",
       "category": "media",
-      "description": "Skill in media category"
+      "description": "Spotify: play, search, queue, manage playlists and devices.",
+      "tags": [
+        "spotify",
+        "music",
+        "playback"
+      ]
     },
     {
       "name": "youtube-content",
       "category": "media",
-      "description": "Skill in media category"
+      "description": "YouTube transcripts to summaries, threads, and blog posts.",
+      "tags": [
+        "youtube",
+        "transcripts",
+        "content"
+      ]
     },
     {
-      "name": "audiocraft-audio-gener\u2026",
+      "name": "audiocraft-audio-generation",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+      "tags": [
+        "audio",
+        "music-gen",
+        "ai"
+      ]
     },
     {
       "name": "axolotl",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "Axolotl: YAML-based LLM fine-tuning with LoRA, DPO, GRPO.",
+      "tags": [
+        "fine-tuning",
+        "lora",
+        "training"
+      ]
     },
     {
       "name": "dspy",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "DSPy: declarative LM programs, auto-optimize prompts, RAG.",
+      "tags": [
+        "dspy",
+        "prompts",
+        "rag"
+      ]
     },
     {
       "name": "evaluating-llms-harness",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "lm-eval-harness: benchmark LLMs on MMLU, GSM8K, etc.",
+      "tags": [
+        "benchmarking",
+        "evaluation",
+        "llm"
+      ]
     },
     {
       "name": "fine-tuning-with-trl",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "TRL: SFT, DPO, PPO, GRPO, reward modeling for LLM RLHF.",
+      "tags": [
+        "rlhf",
+        "fine-tuning",
+        "training"
+      ]
     },
     {
       "name": "huggingface-hub",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "HuggingFace hf CLI: search/download/upload models and datasets.",
+      "tags": [
+        "huggingface",
+        "models",
+        "datasets"
+      ]
     },
     {
       "name": "llama-cpp",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "llama.cpp local GGUF inference and HF Hub model discovery.",
+      "tags": [
+        "inference",
+        "gguf",
+        "local"
+      ]
     },
     {
       "name": "obliteratus",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "OBLITERATUS: abliterate LLM refusals via diff-in-means.",
+      "tags": [
+        "uncensoring",
+        "llm",
+        "safety"
+      ]
     },
     {
       "name": "outlines",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "Outlines: structured JSON/regex/Pydantic LLM generation.",
+      "tags": [
+        "structured-output",
+        "json",
+        "llm"
+      ]
     },
     {
       "name": "segment-anything-model",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "SAM: zero-shot image segmentation via points, boxes, masks.",
+      "tags": [
+        "segmentation",
+        "vision",
+        "sam"
+      ]
     },
     {
       "name": "serving-llms-vllm",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "vLLM: high-throughput LLM serving with OpenAI API and quantization.",
+      "tags": [
+        "serving",
+        "vllm",
+        "inference"
+      ]
     },
     {
       "name": "unsloth",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "Unsloth: 2-5x faster LoRA/QLoRA fine-tuning with less VRAM.",
+      "tags": [
+        "fine-tuning",
+        "optimization",
+        "lora"
+      ]
     },
     {
       "name": "weights-and-biases",
       "category": "mlops",
-      "description": "Skill in mlops category"
+      "description": "W&B: log ML experiments, sweeps, model registry, dashboards.",
+      "tags": [
+        "experiment-tracking",
+        "ml",
+        "dashboards"
+      ]
     },
     {
       "name": "obsidian",
       "category": "note-taking",
-      "description": "Skill in note-taking category"
+      "description": "Read, search, create, and edit notes in the Obsidian vault.",
+      "tags": [
+        "obsidian",
+        "notes",
+        "vault"
+      ]
     },
     {
       "name": "wiki-llm",
       "category": "note-taking",
-      "description": "Skill in note-taking category"
+      "description": "Write and maintain the wiki-llm second-brain vault \u2014 Karpathy-style structured knowledge.",
+      "tags": [
+        "wiki",
+        "knowledge",
+        "second-brain"
+      ]
     },
     {
-      "name": "wiki-llm-vault-managem\u2026",
+      "name": "wiki-llm-vault-management",
       "category": "note-taking",
-      "description": "Skill in note-taking category"
+      "description": "Setup, audit, and repair wiki-llm vaults \u2014 environment config, schema validation.",
+      "tags": [
+        "wiki",
+        "vault",
+        "maintenance"
+      ]
     },
     {
       "name": "airtable",
       "category": "productivity",
-      "description": "Skill in productivity category"
+      "description": "Airtable REST API via curl \u2014 records CRUD, filters, upserts.",
+      "tags": [
+        "airtable",
+        "database",
+        "api"
+      ]
     },
     {
       "name": "google-workspace",
       "category": "productivity",
-      "description": "Skill in productivity category"
+      "description": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+      "tags": [
+        "google",
+        "gmail",
+        "calendar"
+      ]
     },
     {
       "name": "linear",
       "category": "productivity",
-      "description": "Skill in productivity category"
+      "description": "Linear: manage issues, projects, teams via GraphQL + curl.",
+      "tags": [
+        "linear",
+        "issues",
+        "project-management"
+      ]
     },
     {
       "name": "maps",
       "category": "productivity",
-      "description": "Skill in productivity category"
+      "description": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+      "tags": [
+        "maps",
+        "geocoding",
+        "routing"
+      ]
     },
     {
       "name": "nano-pdf",
       "category": "productivity",
-      "description": "Skill in productivity category"
+      "description": "Edit PDF text/typos/titles via nano-pdf CLI with natural language.",
+      "tags": [
+        "pdf",
+        "editing",
+        "documents"
+      ]
     },
     {
       "name": "notion",
       "category": "productivity",
-      "description": "Skill in productivity category"
+      "description": "Notion API via curl \u2014 pages, databases, blocks, search.",
+      "tags": [
+        "notion",
+        "api",
+        "productivity"
+      ]
     },
     {
       "name": "ocr-and-documents",
       "category": "productivity",
-      "description": "Skill in productivity category"
+      "description": "Extract text from PDFs/scans using pymupdf and marker-pdf.",
+      "tags": [
+        "ocr",
+        "pdf",
+        "extraction"
+      ]
     },
     {
       "name": "powerpoint",
       "category": "productivity",
-      "description": "Skill in productivity category"
+      "description": "Create, read, edit .pptx decks, slides, notes, templates.",
+      "tags": [
+        "powerpoint",
+        "presentations",
+        "office"
+      ]
     },
     {
       "name": "teams-meeting-pipeline",
       "category": "productivity",
-      "description": "Skill in productivity category"
+      "description": "Operate the Teams meeting summary pipeline via Hermes CLI.",
+      "tags": [
+        "teams",
+        "meetings",
+        "summarization"
+      ]
     },
     {
       "name": "godmode",
       "category": "red-teaming",
-      "description": "Skill in red-teaming category"
+      "description": "Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN techniques.",
+      "tags": [
+        "jailbreak",
+        "security",
+        "red-team"
+      ]
     },
     {
       "name": "arxiv",
       "category": "research",
-      "description": "Skill in research category"
+      "description": "Search arXiv papers by keyword, author, category, or ID.",
+      "tags": [
+        "arxiv",
+        "papers",
+        "research"
+      ]
     },
     {
       "name": "blogwatcher",
       "category": "research",
-      "description": "Skill in research category"
+      "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+      "tags": [
+        "rss",
+        "monitoring",
+        "blogs"
+      ]
     },
     {
       "name": "polymarket",
       "category": "research",
-      "description": "Skill in research category"
+      "description": "Query Polymarket: markets, prices, orderbooks, history.",
+      "tags": [
+        "prediction-markets",
+        "polymarket",
+        "data"
+      ]
     },
     {
       "name": "research-paper-writing",
       "category": "research",
-      "description": "Skill in research category"
+      "description": "Write ML papers for NeurIPS/ICML/ICLR: design to submit.",
+      "tags": [
+        "papers",
+        "ml",
+        "academic"
+      ]
     },
     {
       "name": "openhue",
       "category": "smart-home",
-      "description": "Skill in smart-home category"
+      "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+      "tags": [
+        "hue",
+        "lights",
+        "smart-home"
+      ]
     },
     {
       "name": "xurl",
       "category": "social-media",
-      "description": "Skill in social-media category"
+      "description": "X/Twitter via xurl CLI: post, search, DM, media, v2 API.",
+      "tags": [
+        "twitter",
+        "social",
+        "api"
+      ]
     },
     {
-      "name": "debugging-hermes-tui-c\u2026",
+      "name": "debugging-hermes-tui-commands",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "Debug Hermes TUI slash commands: Python, gateway, Ink UI.",
+      "tags": [
+        "debugging",
+        "tui",
+        "hermes"
+      ]
     },
     {
-      "name": "hermes-agent-skill-aut\u2026",
+      "name": "hermes-agent-skill-authoring",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "Author in-repo SKILL.md: frontmatter, validator, structure.",
+      "tags": [
+        "skills",
+        "authoring",
+        "hermes"
+      ]
     },
     {
       "name": "node-inspect-debugger",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "Debug Node.js via --inspect and Chrome DevTools Protocol CLI.",
+      "tags": [
+        "node",
+        "debugging",
+        "devtools"
+      ]
     },
     {
       "name": "plan",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "Plan mode: write markdown plan to .hermes/plans/, no execution.",
+      "tags": [
+        "planning",
+        "documentation",
+        "workflow"
+      ]
     },
     {
       "name": "python-debugpy",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "Debug Python: pdb REPL + debugpy remote (DAP).",
+      "tags": [
+        "python",
+        "debugging",
+        "dap"
+      ]
     },
     {
       "name": "requesting-code-review",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "Pre-commit review: security scan, quality gates, auto-fix.",
+      "tags": [
+        "code-review",
+        "security",
+        "quality"
+      ]
     },
     {
       "name": "reviewer-toolkit",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "Reviewer profile toolkit: code review, docs audit, UX inspection.",
+      "tags": [
+        "review",
+        "audit",
+        "toolkit"
+      ]
     },
     {
       "name": "spike",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "Throwaway experiments to validate an idea before build.",
+      "tags": [
+        "experiment",
+        "prototype",
+        "validation"
+      ]
     },
     {
-      "name": "subagent-driven-develo\u2026",
+      "name": "subagent-driven-development",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "Execute plans via delegate_task subagents with 2-stage review.",
+      "tags": [
+        "subagents",
+        "delegation",
+        "workflow"
+      ]
     },
     {
       "name": "systematic-debugging",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "4-phase root cause debugging: understand bugs before fixing.",
+      "tags": [
+        "debugging",
+        "root-cause",
+        "methodology"
+      ]
     },
     {
       "name": "test-driven-development",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+      "tags": [
+        "tdd",
+        "testing",
+        "methodology"
+      ]
     },
     {
       "name": "writing-plans",
       "category": "software-development",
-      "description": "Skill in software-development category"
+      "description": "Write implementation plans: bite-sized tasks, paths, code.",
+      "tags": [
+        "planning",
+        "implementation",
+        "documentation"
+      ]
+    },
+    {
+      "name": "daily-debrief-alpha",
+      "category": "uncategorized",
+      "description": "Morning briefing pattern combining session rehash, tech news, and Polymarket alpha.",
+      "tags": [
+        "briefing",
+        "morning",
+        "alpha"
+      ]
+    },
+    {
+      "name": "dogfood",
+      "category": "uncategorized",
+      "description": "Exploratory QA of web apps: find bugs, evidence, reports.",
+      "tags": [
+        "qa",
+        "testing",
+        "exploratory"
+      ]
+    },
+    {
+      "name": "yuanbao",
+      "category": "uncategorized",
+      "description": "Yuanbao (\u5143\u5b9d) groups: @mention users, query info/members.",
+      "tags": [
+        "yuanbao",
+        "social",
+        "groups"
+      ]
     }
-  ]
+  ],
+  "count": 104
 }

@@ -1,76 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hermes Community Skills</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermes Community Skills - Supercharge your AI assistant</title>
+    <meta name="description" content="Discover and install skills to supercharge your AI assistant. 104 skills across 18 categories.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%235e6ad2'%3e%3cpath d='M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z'/%3e%3c/svg%3e">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <div class="container">
-      <a href="#" style="font-size:1.25rem;font-weight:700;color:var(--accent);text-decoration:none;">Hermes Skills</a>
-      <ul>
-        <li><a href="#skills">Browse</a></li>
-        <li><a href="#install">Install</a></li>
-        <li><a href="https://github.com/Yasuui/hermes-community-skills" target="_blank" rel="noopener">GitHub</a></li>
-      </ul>
-    </div>
-  </nav>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-content">
+            <div class="nav-left">
+                <h1 class="nav-logo">Hermes Skills</h1>
+            </div>
+            <div class="nav-right">
+                <a href="#browse" class="nav-link">Browse</a>
+                <a href="#install" class="nav-link">Install</a>
+                <a href="https://github.com/Yasuui/hermes-community-skills" target="_blank" rel="noopener" class="nav-link">GitHub</a>
+                <button class="search-trigger" id="searchTrigger" title="Search skills (⌘K)">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <span class="search-shortcut">⌘K</span>
+                </button>
+            </div>
+        </div>
+    </nav>
 
-  <section class="hero">
-    <div class="container">
-      <h1>Hermes Community Skills</h1>
-      <p>Discover and install skills to extend Hermes Agent. One command to supercharge your AI assistant.</p>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Hermes Community Skills</h1>
+            <p class="hero-subtitle">Discover and install skills to supercharge your AI assistant. <span id="skillCount">104 skills</span> across <span id="categoryCount">18 categories</span>.</p>
 
-  <section id="skills" class="container">
-    <div class="filters">
-      <input type="text" id="search-input" placeholder="Search skills...">
-      <select id="category-select"></select>
-    </div>
-    <div id="skills-grid" class="skills-grid"></div>
-  </section>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="statSkills">104</div>
+                    <div class="stat-label">Skills</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="statCategories">18</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Command Install</div>
+                </div>
+            </div>
 
-  <section id="install" class="steps-section container">
-    <h2 style="text-align:center;color:var(--accent);margin-bottom:1.5rem;">How to Install</h2>
-    <div class="steps-container">
-      <div class="step-card">
-        <h3>1. Browse</h3>
-        <ol>
-          <li>Find a skill above</li>
-          <li>Click "Install" to copy the command</li>
-        </ol>
-      </div>
-      <div class="step-card">
-        <h3>2. Install</h3>
-        <ol>
-          <li>Open your terminal</li>
-          <li>Paste the install command</li>
-          <li>Restart Hermes Agent</li>
-        </ol>
-      </div>
-      <div class="step-card">
-        <h3>3. Use</h3>
-        <ol>
-          <li>Ask Hermes to use the skill</li>
-          <li>Skills activate automatically</li>
-        </ol>
-      </div>
-    </div>
-  </section>
+            <div class="hero-actions">
+                <button class="btn btn-primary" onclick="document.getElementById('browse').scrollIntoView({behavior: 'smooth'})">Browse Skills</button>
+                <a href="https://github.com/Yasuui/hermes-community-skills" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub</a>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <div class="container">
-      <p>Hermes Community Skills &mdash; Open source AI skills marketplace</p>
-      <p style="margin-top:0.5rem;"><a href="https://github.com/Yasuui/hermes-community-skills" style="color:var(--green);text-decoration:none;">GitHub</a></p>
-    </div>
-  </footer>
+    <!-- Browse Section -->
+    <section class="browse" id="browse">
+        <div class="container">
+            <!-- Filters -->
+            <div class="filters">
+                <div class="search-container">
+                    <div class="search-input-wrapper">
+                        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="m21 21-4.35-4.35"/>
+                        </svg>
+                        <input type="text" class="search-input" id="searchInput" placeholder="Search skills...">
+                        <button class="search-clear" id="searchClear" title="Clear search" style="display: none;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="18" y1="6" x2="6" y2="18"/>
+                                <line x1="6" y1="6" x2="18" y2="18"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
 
-  <script src="app.js"></script>
+                <div class="categories-container">
+                    <div class="categories-scroll" id="categories">
+                        <!-- Categories will be populated by JS -->
+                    </div>
+                </div>
+
+                <div class="results-count" id="resultsCount">
+                    <span id="resultText">Loading skills...</span>
+                </div>
+            </div>
+
+            <!-- Skills Grid -->
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be populated by JS -->
+            </div>
+
+            <!-- Empty State -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+                <h3>No skills found</h3>
+                <p>Try adjusting your search or category filter</p>
+                <button class="btn btn-ghost" onclick="clearAllFilters()">Clear filters</button>
+            </div>
+
+            <!-- Loading State -->
+            <div class="loading-state" id="loadingState">
+                <div class="loading-spinner"></div>
+                <p>Loading skills...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Install Section -->
+    <section class="install" id="install">
+        <div class="container">
+            <h2 class="section-title">Install any skill in one command</h2>
+            <p class="section-subtitle">Get started with Hermes Community Skills in seconds</p>
+
+            <div class="install-steps">
+                <div class="install-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Browse</h3>
+                        <p class="step-description">Find a skill from the collection above that fits your needs</p>
+                    </div>
+                </div>
+
+                <div class="install-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Install</h3>
+                        <p class="step-description">Copy the install command and run it in your terminal</p>
+                    </div>
+                </div>
+
+                <div class="install-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Activate</h3>
+                        <p class="step-description">Restart Hermes and start using your new skills immediately</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="install-example">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="code-language">Terminal</span>
+                        <button class="copy-btn" onclick="copyToClipboard('hermes skill install apple-notes')" title="Copy command">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <code>hermes skill install apple-notes</code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">Hermes Community Skills — Open source AI skills marketplace</p>
+                <a href="https://github.com/Yasuui/hermes-community-skills" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <svg class="toast-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20,6 9,17 4,12"/>
+            </svg>
+            <span class="toast-message"></span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
