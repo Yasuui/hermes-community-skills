@@ -1,0 +1,509 @@
+{
+  "skills": [
+    {
+      "name": "apple-notes",
+      "category": "apple",
+      "description": "Skill in apple category"
+    },
+    {
+      "name": "apple-reminders",
+      "category": "apple",
+      "description": "Skill in apple category"
+    },
+    {
+      "name": "findmy",
+      "category": "apple",
+      "description": "Skill in apple category"
+    },
+    {
+      "name": "imessage",
+      "category": "apple",
+      "description": "Skill in apple category"
+    },
+    {
+      "name": "macos-computer-use",
+      "category": "apple",
+      "description": "Skill in apple category"
+    },
+    {
+      "name": "claude-code",
+      "category": "autonomous-ai-agents",
+      "description": "Skill in autonomous-ai-agents category"
+    },
+    {
+      "name": "codex",
+      "category": "autonomous-ai-agents",
+      "description": "Skill in autonomous-ai-agents category"
+    },
+    {
+      "name": "delegation-toolchain",
+      "category": "autonomous-ai-agents",
+      "description": "Skill in autonomous-ai-agents category"
+    },
+    {
+      "name": "hermes-agent",
+      "category": "autonomous-ai-agents",
+      "description": "Skill in autonomous-ai-agents category"
+    },
+    {
+      "name": "opencode",
+      "category": "autonomous-ai-agents",
+      "description": "Skill in autonomous-ai-agents category"
+    },
+    {
+      "name": "architecture-diagram",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "ascii-art",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "ascii-video",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "baoyu-comic",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "baoyu-infographic",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "claude-design",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "comfyui",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "design-md",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "excalidraw",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "humanizer",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "ideation",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "manim-video",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "p5js",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "pixel-art",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "popular-web-designs",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "pretext",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "sketch",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "songwriting-and-ai-mus\u2026",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "touchdesigner-mcp",
+      "category": "creative",
+      "description": "Skill in creative category"
+    },
+    {
+      "name": "jupyter-live-kernel",
+      "category": "data-science",
+      "description": "Skill in data-science category"
+    },
+    {
+      "name": "gateway-connectivity",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "gateway-process-manage\u2026",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "hermes-admin-inspection",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "hq-resilience",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "kanban-orchestrator",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "kanban-worker",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "memory-providers",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "memory-wiki-health",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "orchestrator-efficienc\u2026",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "playwright-screen-reco\u2026",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "webhook-subscriptions",
+      "category": "devops",
+      "description": "Skill in devops category"
+    },
+    {
+      "name": "himalaya",
+      "category": "email",
+      "description": "Skill in email category"
+    },
+    {
+      "name": "minecraft-modpack-serv\u2026",
+      "category": "gaming",
+      "description": "Skill in gaming category"
+    },
+    {
+      "name": "pokemon-player",
+      "category": "gaming",
+      "description": "Skill in gaming category"
+    },
+    {
+      "name": "codebase-inspection",
+      "category": "github",
+      "description": "Skill in github category"
+    },
+    {
+      "name": "github-auth",
+      "category": "github",
+      "description": "Skill in github category"
+    },
+    {
+      "name": "github-code-review",
+      "category": "github",
+      "description": "Skill in github category"
+    },
+    {
+      "name": "github-issues",
+      "category": "github",
+      "description": "Skill in github category"
+    },
+    {
+      "name": "github-pr-workflow",
+      "category": "github",
+      "description": "Skill in github category"
+    },
+    {
+      "name": "github-repo-management",
+      "category": "github",
+      "description": "Skill in github category"
+    },
+    {
+      "name": "github-workflow-automa\u2026",
+      "category": "github",
+      "description": "Skill in github category"
+    },
+    {
+      "name": "native-mcp",
+      "category": "mcp",
+      "description": "Skill in mcp category"
+    },
+    {
+      "name": "gif-search",
+      "category": "media",
+      "description": "Skill in media category"
+    },
+    {
+      "name": "heartmula",
+      "category": "media",
+      "description": "Skill in media category"
+    },
+    {
+      "name": "songsee",
+      "category": "media",
+      "description": "Skill in media category"
+    },
+    {
+      "name": "spotify",
+      "category": "media",
+      "description": "Skill in media category"
+    },
+    {
+      "name": "youtube-content",
+      "category": "media",
+      "description": "Skill in media category"
+    },
+    {
+      "name": "audiocraft-audio-gener\u2026",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "axolotl",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "dspy",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "fine-tuning-with-trl",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "huggingface-hub",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "llama-cpp",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "obliteratus",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "outlines",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "segment-anything-model",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "serving-llms-vllm",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "unsloth",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "weights-and-biases",
+      "category": "mlops",
+      "description": "Skill in mlops category"
+    },
+    {
+      "name": "obsidian",
+      "category": "note-taking",
+      "description": "Skill in note-taking category"
+    },
+    {
+      "name": "wiki-llm",
+      "category": "note-taking",
+      "description": "Skill in note-taking category"
+    },
+    {
+      "name": "wiki-llm-vault-managem\u2026",
+      "category": "note-taking",
+      "description": "Skill in note-taking category"
+    },
+    {
+      "name": "airtable",
+      "category": "productivity",
+      "description": "Skill in productivity category"
+    },
+    {
+      "name": "google-workspace",
+      "category": "productivity",
+      "description": "Skill in productivity category"
+    },
+    {
+      "name": "linear",
+      "category": "productivity",
+      "description": "Skill in productivity category"
+    },
+    {
+      "name": "maps",
+      "category": "productivity",
+      "description": "Skill in productivity category"
+    },
+    {
+      "name": "nano-pdf",
+      "category": "productivity",
+      "description": "Skill in productivity category"
+    },
+    {
+      "name": "notion",
+      "category": "productivity",
+      "description": "Skill in productivity category"
+    },
+    {
+      "name": "ocr-and-documents",
+      "category": "productivity",
+      "description": "Skill in productivity category"
+    },
+    {
+      "name": "powerpoint",
+      "category": "productivity",
+      "description": "Skill in productivity category"
+    },
+    {
+      "name": "teams-meeting-pipeline",
+      "category": "productivity",
+      "description": "Skill in productivity category"
+    },
+    {
+      "name": "godmode",
+      "category": "red-teaming",
+      "description": "Skill in red-teaming category"
+    },
+    {
+      "name": "arxiv",
+      "category": "research",
+      "description": "Skill in research category"
+    },
+    {
+      "name": "blogwatcher",
+      "category": "research",
+      "description": "Skill in research category"
+    },
+    {
+      "name": "polymarket",
+      "category": "research",
+      "description": "Skill in research category"
+    },
+    {
+      "name": "research-paper-writing",
+      "category": "research",
+      "description": "Skill in research category"
+    },
+    {
+      "name": "openhue",
+      "category": "smart-home",
+      "description": "Skill in smart-home category"
+    },
+    {
+      "name": "xurl",
+      "category": "social-media",
+      "description": "Skill in social-media category"
+    },
+    {
+      "name": "debugging-hermes-tui-c\u2026",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "hermes-agent-skill-aut\u2026",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "node-inspect-debugger",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "plan",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "python-debugpy",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "requesting-code-review",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "reviewer-toolkit",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "spike",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "subagent-driven-develo\u2026",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "systematic-debugging",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "test-driven-development",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    },
+    {
+      "name": "writing-plans",
+      "category": "software-development",
+      "description": "Skill in software-development category"
+    }
+  ]
+}
