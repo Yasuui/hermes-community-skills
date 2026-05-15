@@ -1,0 +1,11 @@
+{
+  "name": "hermes-community-skills",
+  "version": "1.0.0",
+  "description": "Community-curated skills directory for Hermes Agent — discover, share, and install skills beyond the built-in catalog.",
+  "repository": "https://github.com/Yasuui/hermes-community-skills",
+  "website": "https://Yasuui.github.io/hermes-community-skills",
+  "skills": {
+    "built-in": [],
+    "community": []
+  }
+}

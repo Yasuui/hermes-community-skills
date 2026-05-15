@@ -1,0 +1,519 @@
+{
+  "skills": [
+    {
+      "name": "daily-debrief-alpha",
+      "category": "",
+      "description": "Resolving 'daily-debrief-alpha'... Error: No skill named 'daily-debrief-alpha' found in any source."
+    },
+    {
+      "name": "dogfood",
+      "category": "",
+      "description": "Resolving 'dogfood'... No exact match for 'dogfood'. Did you mean one of these? adversarial-ux-test — official/dogfood/adversarial-ux-test"
+    },
+    {
+      "name": "yuanbao",
+      "category": "",
+      "description": "Resolving 'yuanbao'... Error: No skill named 'yuanbao' found in any source."
+    },
+    {
+      "name": "apple-notes",
+      "category": "apple",
+      "description": "Resolving 'apple-notes'... Error: No skill named 'apple-notes' found in any source."
+    },
+    {
+      "name": "apple-reminders",
+      "category": "apple",
+      "description": "Resolving 'apple-reminders'... Error: No skill named 'apple-reminders' found in any source."
+    },
+    {
+      "name": "findmy",
+      "category": "apple",
+      "description": "Resolving 'findmy'... Error: No skill named 'findmy' found in any source."
+    },
+    {
+      "name": "imessage",
+      "category": "apple",
+      "description": "Resolving 'imessage'... No exact match for 'imessage'. Did you mean one of these? Surf Query — surf-query"
+    },
+    {
+      "name": "macos-computer-use",
+      "category": "apple",
+      "description": "Resolving 'macos-computer-use'... Error: No skill named 'macos-computer-use' found in any source."
+    },
+    {
+      "name": "claude-code",
+      "category": "autonomous-ai-agents",
+      "description": "Resolving 'claude-code'... No exact match for 'claude-code'. Did you mean one of these? ai-regression-testing —"
+    },
+    {
+      "name": "codex",
+      "category": "autonomous-ai-agents",
+      "description": "Resolving 'codex'... Resolved to: garrytan/gstack/codex ╭──────────────────────────────── Skill: codex ────────────────────────────────╮"
+    },
+    {
+      "name": "delegation-toolchain",
+      "category": "autonomous-ai-agents",
+      "description": ""
+    },
+    {
+      "name": "hermes-agent",
+      "category": "autonomous-ai-agents",
+      "description": ""
+    },
+    {
+      "name": "opencode",
+      "category": "autonomous-ai-agents",
+      "description": ""
+    },
+    {
+      "name": "architecture-diagram",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "ascii-art",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "ascii-video",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "baoyu-comic",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "baoyu-infographic",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "claude-design",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "comfyui",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "design-md",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "excalidraw",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "humanizer",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "ideation",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "manim-video",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "p5js",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "pixel-art",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "popular-web-designs",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "pretext",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "sketch",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "songwriting-and-ai-mus…",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "touchdesigner-mcp",
+      "category": "creative",
+      "description": ""
+    },
+    {
+      "name": "jupyter-live-kernel",
+      "category": "data-science",
+      "description": ""
+    },
+    {
+      "name": "gateway-connectivity",
+      "category": "devops",
+      "description": ""
+    },
+    {
+      "name": "hermes-admin-inspection",
+      "category": "devops",
+      "description": ""
+    },
+    {
+      "name": "hq-resilience",
+      "category": "devops",
+      "description": ""
+    },
+    {
+      "name": "kanban-orchestrator",
+      "category": "devops",
+      "description": ""
+    },
+    {
+      "name": "kanban-worker",
+      "category": "devops",
+      "description": ""
+    },
+    {
+      "name": "memory-providers",
+      "category": "devops",
+      "description": ""
+    },
+    {
+      "name": "memory-wiki-health",
+      "category": "devops",
+      "description": ""
+    },
+    {
+      "name": "orchestrator-efficienc…",
+      "category": "devops",
+      "description": ""
+    },
+    {
+      "name": "playwright-screen-reco…",
+      "category": "devops",
+      "description": ""
+    },
+    {
+      "name": "webhook-subscriptions",
+      "category": "devops",
+      "description": ""
+    },
+    {
+      "name": "himalaya",
+      "category": "email",
+      "description": ""
+    },
+    {
+      "name": "minecraft-modpack-serv…",
+      "category": "gaming",
+      "description": ""
+    },
+    {
+      "name": "pokemon-player",
+      "category": "gaming",
+      "description": ""
+    },
+    {
+      "name": "codebase-inspection",
+      "category": "github",
+      "description": ""
+    },
+    {
+      "name": "github-auth",
+      "category": "github",
+      "description": ""
+    },
+    {
+      "name": "github-code-review",
+      "category": "github",
+      "description": ""
+    },
+    {
+      "name": "github-issues",
+      "category": "github",
+      "description": ""
+    },
+    {
+      "name": "github-pr-workflow",
+      "category": "github",
+      "description": ""
+    },
+    {
+      "name": "github-repo-management",
+      "category": "github",
+      "description": ""
+    },
+    {
+      "name": "github-workflow-automa…",
+      "category": "github",
+      "description": ""
+    },
+    {
+      "name": "native-mcp",
+      "category": "mcp",
+      "description": ""
+    },
+    {
+      "name": "gif-search",
+      "category": "media",
+      "description": ""
+    },
+    {
+      "name": "heartmula",
+      "category": "media",
+      "description": ""
+    },
+    {
+      "name": "songsee",
+      "category": "media",
+      "description": ""
+    },
+    {
+      "name": "spotify",
+      "category": "media",
+      "description": ""
+    },
+    {
+      "name": "youtube-content",
+      "category": "media",
+      "description": ""
+    },
+    {
+      "name": "audiocraft-audio-gener…",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "axolotl",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "dspy",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "fine-tuning-with-trl",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "huggingface-hub",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "llama-cpp",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "obliteratus",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "outlines",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "segment-anything-model",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "serving-llms-vllm",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "unsloth",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "weights-and-biases",
+      "category": "mlops",
+      "description": ""
+    },
+    {
+      "name": "obsidian",
+      "category": "note-taking",
+      "description": ""
+    },
+    {
+      "name": "wiki-llm",
+      "category": "note-taking",
+      "description": ""
+    },
+    {
+      "name": "wiki-llm-vault-managem…",
+      "category": "note-taking",
+      "description": ""
+    },
+    {
+      "name": "airtable",
+      "category": "productivity",
+      "description": ""
+    },
+    {
+      "name": "google-workspace",
+      "category": "productivity",
+      "description": ""
+    },
+    {
+      "name": "linear",
+      "category": "productivity",
+      "description": ""
+    },
+    {
+      "name": "maps",
+      "category": "productivity",
+      "description": ""
+    },
+    {
+      "name": "nano-pdf",
+      "category": "productivity",
+      "description": ""
+    },
+    {
+      "name": "notion",
+      "category": "productivity",
+      "description": ""
+    },
+    {
+      "name": "ocr-and-documents",
+      "category": "productivity",
+      "description": ""
+    },
+    {
+      "name": "powerpoint",
+      "category": "productivity",
+      "description": ""
+    },
+    {
+      "name": "teams-meeting-pipeline",
+      "category": "productivity",
+      "description": ""
+    },
+    {
+      "name": "godmode",
+      "category": "red-teaming",
+      "description": ""
+    },
+    {
+      "name": "arxiv",
+      "category": "research",
+      "description": ""
+    },
+    {
+      "name": "blogwatcher",
+      "category": "research",
+      "description": ""
+    },
+    {
+      "name": "polymarket",
+      "category": "research",
+      "description": ""
+    },
+    {
+      "name": "research-paper-writing",
+      "category": "research",
+      "description": ""
+    },
+    {
+      "name": "openhue",
+      "category": "smart-home",
+      "description": ""
+    },
+    {
+      "name": "xurl",
+      "category": "social-media",
+      "description": ""
+    },
+    {
+      "name": "debugging-hermes-tui-c…",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "hermes-agent-skill-aut…",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "node-inspect-debugger",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "plan",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "python-debugpy",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "requesting-code-review",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "reviewer-toolkit",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "spike",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "subagent-driven-develo…",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "systematic-debugging",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "test-driven-development",
+      "category": "software-development",
+      "description": ""
+    },
+    {
+      "name": "writing-plans",
+      "category": "software-development",
+      "description": ""
+    }
+  ]
+}

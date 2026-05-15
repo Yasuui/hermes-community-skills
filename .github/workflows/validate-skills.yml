@@ -1,0 +1,56 @@
+name: Validate Skills
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'skills/**'
+      - '.github/workflows/validate-skills.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Hermes Agent (if not available)
+        run: |
+          pip install hermes-agent
+          # Or use the local installation? We'll assume the environment has hermes available.
+          # Since we are in a CI that might not have hermes, we install it.
+          # But note: the skill validation might require hermes to be installed.
+          # We'll install from PyPI.
+
+      - name: Validate skill YAML frontmatter
+        run: |
+          find skills -name 'SKILL.md' -type f | while read skill; do
+            echo "Checking $skill"
+            # Extract frontmatter (between --- lines)
+            awk '/^---$/{if(p)exit;p=1;next}p' "$skill" | yamllint -
+          done
+
+      - name: Check for secrets
+        run: |
+          # Patterns for common secrets
+          patterns="(sk-|api_key|token|password|secret|key\s*=)"
+          if git diff --name-only --diff-filter=AM | grep -qE '\.(md|yml|yaml|json)$'; then
+            echo "Scanning for secrets..."
+            if git diff --cached | grep -iE "$patterns"; then
+              echo "Potential secret detected!"
+              exit 1
+            fi
+          fi
+
+      - name: Run hermes skill validation (if available)
+        run: |
+          if command -v hermes &> /dev/null; then
+            echo "Running hermes skill validation..."
+            hermes skills audit || true
+          else
+            echo "Hermes not available, skipping skill validation."
+          fi
